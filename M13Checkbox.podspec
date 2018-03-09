@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
 
   s.source = { :git => "https://github.com/Marxon13/M13Checkbox.git", :tag => "#{s.version}"}
+  s.static_framework = true
 
   s.source_files  = 'Sources/**/*'
 
